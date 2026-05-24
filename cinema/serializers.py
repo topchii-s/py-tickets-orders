@@ -159,7 +159,7 @@ class MovieSessionDetailSerializer(MovieSessionSerializer):
             "cinema_hall",
             "taken_places",
         )
-        
+
 
 class TicketMovieSessionSerializer(serializers.ModelSerializer):
     movie_title = serializers.CharField(
